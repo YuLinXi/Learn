@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>0001 · 结构正确与事实正确</title><link rel="stylesheet" href="../assets/course.css"><script src="../assets/quiz.js" defer></script></head>
+<body><main><nav><a href="../index.html">课程首页</a><a href="../modules/01-llm-foundations/README.md">M01 大纲</a><a href="../reference/glossary.html">术语速查</a></nav>
+<header><div class="eyebrow">M01 · 入门短课 / 0001 · 约 10 分钟</div><h1>结构正确，<br>还需要核实内容。</h1><p class="muted">本课只练一个能力：判断模型输出的问题属于数据结构、事实错误，还是证据不足。这是让 Agent 结果可靠进入应用的第一步。</p></header>
+<section><h2>开始前</h2><p>如果你还不熟悉 JSON，把这个信息告诉教师；如果熟悉，先试着回答：一段能够被程序解析的 JSON，为什么仍然可能给用户错误答案？</p></section>
+<section><h2>分清三个检查层次</h2><p>程序能够解析 JSON，只说明语法可读。Schema 进一步约束字段和类型；符合 Schema 的内容，仍可能含有事实错误。对于支持的模型和 Schema，正确使用 Structured Outputs 可以约束输出结构；应用仍要处理拒绝、未完成响应等情况。</p><p><a href="https://developers.openai.com/api/docs/guides/structured-outputs">主要资料：OpenAI Structured Outputs</a>。重点阅读 “Structured Outputs vs JSON mode” 与 “Handling mistakes”。</p>
+<div class="callout">读数据时依次问：能解析吗？符合约定吗？有证据支持吗？</div>
+<p>下面是教学用的简化契约：需要一个 <code>city</code> 字段，类型是字符串。假设任务要求提取“法国首都是巴黎”中的首都。</p>
+<pre><code>{ "city": "里昂" }</code></pre><p>字段和类型满足契约，但与给定原文不符。这时需要检查提取结果和来源；重新包装 JSON 不能修正事实。</p></section>
+<section><h2>用三个反例练习</h2><p>按题目已给的信息，选出可以确定的主要问题。先提交，再看反馈。</p>
+<form data-quiz>
+<fieldset data-answer="fact" data-explanation="city 是字符串，结构符合约定；但给定原文说巴黎，提取成里昂，内容有误。"><legend>1 · 原文：法国首都是巴黎。输出：city = “里昂”。</legend>
+<label><input type="radio" name="q1" value="schema">结构有误</label><label><input type="radio" name="q1" value="fact">事实有误</label><label><input type="radio" name="q1" value="unknown">尚未核实</label><p class="feedback" aria-live="polite"></p></fieldset>
+<fieldset data-answer="schema" data-explanation="契约要求 city 是字符串，数值 42 不满足字段类型。这不只是 JSON 能否被解析的问题。"><legend>2 · 契约要求 city 为字符串。输出：<code>{ "city": 42 }</code>。</legend>
+<label><input type="radio" name="q2" value="schema">结构有误</label><label><input type="radio" name="q2" value="unknown">尚未核实</label><label><input type="radio" name="q2" value="fact">事实有误</label><p class="feedback" aria-live="polite"></p></fieldset>
+<fieldset data-answer="unknown" data-explanation="employees 为数值，符合题目的结构约定。但没有人数来源，不能仅凭结构认定 27 正确，也不能断定它错误。"><legend>3 · 契约要求 employees 为数值。输出 27，未提供人数来源。</legend>
+<label><input type="radio" name="q3" value="fact">事实有误</label><label><input type="radio" name="q3" value="schema">结构有误</label><label><input type="radio" name="q3" value="unknown">尚未核实</label><p class="feedback" aria-live="polite"></p></fieldset>
+<button type="submit">检查答案</button><p data-summary role="status"></p></form></section>
+<section><h2>迁移到你的应用</h2><p>假设应用把用户的一句话提取成日程：<code>{ "date": "2026-10-20", "title": "讨论" }</code>。请举一个“结构满足约定，但业务上仍不能直接创建日程”的情况，并说明还需要检查什么。</p><p>把三题答案和这道迁移题的解释发回聊天。教师会据此判断这个知识点是否掌握，记录困难并选择下一节；本课不代表整个 M01 已通过。</p></section>
+<footer>有任何不清楚的地方，随时向教师追问。网页自测只提供即时反馈，不自动保存进度。<br><a href="../PROGRESS.md">查看进度</a> · <a href="../CURRICULUM.md">后续课程</a></footer></main></body></html>
