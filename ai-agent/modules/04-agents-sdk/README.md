@@ -18,16 +18,12 @@
 主读：[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents/sdk)。  
 建议阅读顺序：[Quickstart](https://openai.github.io/openai-agents-js/guides/quickstart) → [Define agents](https://openai.github.io/openai-agents-js/guides/agents) → [Running agents](https://openai.github.io/openai-agents-js/guides/running-agents) → [Results](https://openai.github.io/openai-agents-js/guides/results)。
 
-## 建议短课顺序
+## 建议阶段目标
 
 1. 定义 Agent 与执行一次 Run
 2. 工具、会话与流式事件
 3. Guardrails 与基础 Trace
 
-以上是教学拆分，每次只生成一个可练习的小单元；按你的反馈继续拆小或跳过已掌握部分。
-
 ## 模块验收
 
 完成一个带工具的单 Agent 小练习，说明上下文与会话的区别，并从 Trace 定位一次失败。
-
-验收通过须有你的解释、作答或练习证据；教师示范和课件生成不算通过。证据位置与下一步统一写入 [PROGRESS.md](../../PROGRESS.md)。

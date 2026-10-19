@@ -1,15 +1,17 @@
-# AI Agent Resources
+# 原始学习资料
 
-整理日期：2026-10-16。以章节阅读入口与用途索引整理；不要求整套读完。各模块的指定章节见 [课程目录](CURRICULUM.md)。可访问性检查见 [链接检查记录](reference/link-checks.md)；访问成功不代表每一章都已逐段审读，授课时须核对具体内容和接口版本。
+按阶段直接阅读原始资料；本文件保存资料入口与用途，具体小目标、精确阅读范围和汇报点见 [课程目录](CURRICULUM.md) 中的当前模块。分配阅读任务时核对相关内容与接口版本。
 
-## Knowledge
+## 教材与官方文档
 
 - [Hello-Agents · Datawhale](https://github.com/datawhalechina/hello-agents)
   中文原理主教材。按 M01–M03、M05–M07、M09、M12 指定章节阅读；Python 示例用于理解机制，自己的练习优先 TS。第 11 章留给 A3。
 - [OpenAI Agents SDK · TypeScript](https://openai.github.io/openai-agents-js/)
   M04、M10 的主要开发资料。阅读 Quickstart → Agents → Running agents → Results；会话、工具与 Trace 按需查。
 - [OpenAI Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs)
-  M01：区分 JSON 语法、Schema 约束和事实正确性。首节短课重点读 Structured Outputs vs JSON mode 与 Handling mistakes。
+  M01 阶段 D：区分 JSON 语法、Schema 约束和事实正确性，阅读 Structured Outputs vs JSON mode、Handling mistakes、Streaming 及边界处理。
+- [OpenAI Conversation state](https://developers.openai.com/api/docs/guides/conversation-state#managing-the-context-window)
+  M01 阶段 C：阅读 Managing the context window 及其文本生成说明，区分上下文窗口、输入与输出用量。
 - [OpenAI Function Calling](https://developers.openai.com/api/docs/guides/function-calling)
   M03：工具声明、模型请求、应用执行与结果回传。
 - [Mastra 官方文档](https://mastra.ai/docs)
@@ -35,15 +37,8 @@
 - [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en/unit0/introduction)
   遇到核心概念不清楚时用作另一种讲解；不是额外必修课程。
 
-## Wisdom (Communities)
+## 使用约定
 
-- [Hello-Agents Discussions](https://github.com/datawhalechina/hello-agents/discussions)
-  用于具体章节问题与练习讨论；先整理复现过程和自己的理解。
-- [《深入理解 AI Agent》Discussions](https://github.com/bojieli/ai-agent-book/discussions)
-  用于开放式思考题、架构取舍与真实实践反馈。社区参与自愿，尚未确认用户偏好。
-
-## Gaps
-
-- 目前未确认用户已有技能、可用 API 服务和预算；开始相应练习时补齐。
-- 版本随课程进展固定在各练习中；本次不锁定未来课程的 SDK 和模型版本。
-- 教材链接已经整理，不代表所有示例已在本机运行。无法直接访问的资料在链接检查记录中标明。
+- 原文入口用于查找资料，当前模块中的指定范围才是本阶段阅读任务。
+- 具体 API、依赖和协议版本在相应练习开始前核对，并在练习中记录。
+- 访问或理解原文遇到阻碍时，带上链接、所在小节与疑问回来讨论。

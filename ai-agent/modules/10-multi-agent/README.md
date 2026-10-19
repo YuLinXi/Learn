@@ -19,16 +19,12 @@
 深入：[《深入理解 AI Agent》第 10 章：多 Agent 协作](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter10.md)。  
 补充：[Microsoft 第 8 课：Multi-Agent](https://github.com/microsoft/ai-agents-for-beginners/tree/main/08-multi-agent)。
 
-## 建议短课顺序
+## 建议阶段目标
 
 1. 单 Agent 与协作的取舍
 2. Handoff 与 Agent as Tool
 3. 隔离、汇总与终止
 
-以上是教学拆分，每次只生成一个可练习的小单元；按你的反馈继续拆小或跳过已掌握部分。
-
 ## 模块验收
 
 在同一小任务上比较单 Agent 和协作方式，记录输出、调用数与失败点，并给出是否值得拆分的判断。
-
-验收通过须有你的解释、作答或练习证据；教师示范和课件生成不算通过。证据位置与下一步统一写入 [PROGRESS.md](../../PROGRESS.md)。

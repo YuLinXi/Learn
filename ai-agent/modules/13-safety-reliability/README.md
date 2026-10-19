@@ -19,16 +19,12 @@
 主读：[Microsoft 第 18 课：Securing AI Agents](https://github.com/microsoft/ai-agents-for-beginners/tree/main/18-securing-ai-agents)、[第 10 课：AI Agents in Production](https://github.com/microsoft/ai-agents-for-beginners/tree/main/10-ai-agents-production)。  
 配合：[OpenAI Guardrails and Approvals](https://openai.github.io/openai-agents-js/guides/guardrails)、Mastra 的部署相关文档。
 
-## 建议短课顺序
+## 建议阶段目标
 
 1. 提示注入与最小权限
 2. 隔离、审计和审批
 3. 限流、预算、恢复与运维
 
-以上是教学拆分，每次只生成一个可练习的小单元；按你的反馈继续拆小或跳过已掌握部分。
-
 ## 模块验收
 
 为同一小练习写出威胁与故障清单；验证外部文本不能获得额外权限、失败可恢复且敏感日志经过脱敏。
-
-验收通过须有你的解释、作答或练习证据；教师示范和课件生成不算通过。证据位置与下一步统一写入 [PROGRESS.md](../../PROGRESS.md)。

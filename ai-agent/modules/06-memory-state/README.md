@@ -18,16 +18,12 @@
 主读：[Hello-Agents 第 8 章：记忆与检索](https://github.com/datawhalechina/hello-agents/tree/main/docs/chapter8)。  
 深入：[《深入理解 AI Agent》第 3 章：用户记忆和知识库](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter3.md)。
 
-## 建议短课顺序
+## 建议阶段目标
 
 1. 历史、任务状态、用户记忆与知识库
 2. 写入、检索、更新和遗忘
 3. 跨会话恢复与用户隔离
 
-以上是教学拆分，每次只生成一个可练习的小单元；按你的反馈继续拆小或跳过已掌握部分。
-
 ## 模块验收
 
 为四类信息选择存储位置；演示偏好更新、会话恢复，以及两个用户的数据隔离。
-
-验收通过须有你的解释、作答或练习证据；教师示范和课件生成不算通过。证据位置与下一步统一写入 [PROGRESS.md](../../PROGRESS.md)。
