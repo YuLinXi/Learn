@@ -13,7 +13,7 @@ SFT、偏好优化、强化学习、奖励设计、轨迹数据与训练评估�
 ## 对应资料
 
 - [《深入理解 AI Agent》第 8 章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter8.md)：建立本方向的架构与设计认识。
-- [Hello-Agents 第 11 章](https://github.com/datawhalechina/hello-agents/tree/main/docs/chapter11)：补充 Agentic RL 的机制与练习。
+- [Hello-Agents 第 11 章](https://hello-agents.datawhale.cc/#/./chapter11/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20Agentic-RL)：补充 Agentic RL 的机制与练习。
 
 ## 建议验收
 

@@ -4,7 +4,7 @@
 
 ## 教材与官方文档
 
-- [Hello-Agents · Datawhale](https://github.com/datawhalechina/hello-agents)
+- [Hello-Agents · Datawhale 国内在线阅读](https://hello-agents.datawhale.cc/#/)
   中文原理主教材。按 M01–M03、M05–M07、M09、M12 指定章节阅读；Python 示例用于理解机制，自己的练习优先 TS。第 11 章留给 A3。
 - [OpenAI Agents SDK · TypeScript](https://openai.github.io/openai-agents-js/)
   M04、M10 的主要开发资料。阅读 Quickstart → Agents → Running agents → Results；会话、工具与 Trace 按需查。

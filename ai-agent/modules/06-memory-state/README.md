@@ -15,7 +15,7 @@
 - 用户偏好、事实、经验和阶段性总结的组织方式。
 - 跨会话恢复，以及用户与租户之间的数据隔离。
 
-主读：[Hello-Agents 第 8 章：记忆与检索](https://github.com/datawhalechina/hello-agents/tree/main/docs/chapter8)。  
+主读：[Hello-Agents 第 8 章：记忆与检索](https://hello-agents.datawhale.cc/#/./chapter8/%E7%AC%AC%E5%85%AB%E7%AB%A0%20%E8%AE%B0%E5%BF%86%E4%B8%8E%E6%A3%80%E7%B4%A2)。  
 深入：[《深入理解 AI Agent》第 3 章：用户记忆和知识库](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter3.md)。
 
 ## 建议阶段目标

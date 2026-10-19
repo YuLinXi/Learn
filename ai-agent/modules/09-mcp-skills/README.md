@@ -18,7 +18,7 @@
 
 主读：[MCP 官方架构文档](https://modelcontextprotocol.io/docs/learn/architecture)、[Agent Skills 官方文档](https://agentskills.io/home)。  
 代码参考：[MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)。  
-中文补充：[Hello-Agents 第 10 章：智能体通信协议](https://github.com/datawhalechina/hello-agents/tree/main/docs/chapter10)。
+中文补充：[Hello-Agents 第 10 章：智能体通信协议](https://hello-agents.datawhale.cc/#/./chapter10/%E7%AC%AC%E5%8D%81%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE)。
 
 MCP 的接口和协议细节以官方现行文档为准；A2A 等协议可以在本模块之后选读。
 

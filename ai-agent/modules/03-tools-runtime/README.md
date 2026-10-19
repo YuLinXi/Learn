@@ -16,7 +16,7 @@
 - 最大步数、循环检测及执行过程记录。
 
 主读：[OpenAI Function Calling](https://developers.openai.com/api/docs/guides/function-calling)。  
-配合：[Hello-Agents 第 7 章：构建你的 Agent 框架](https://github.com/datawhalechina/hello-agents/tree/main/docs/chapter7)。
+配合：[Hello-Agents 第 7 章：构建你的 Agent 框架](https://hello-agents.datawhale.cc/#/./chapter7/%E7%AC%AC%E4%B8%83%E7%AB%A0%20%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84Agent%E6%A1%86%E6%9E%B6)。
 
 这一模块的重点是理解：**模型负责提出工具调用，应用负责校验和执行，并决定是否继续运行。**
 

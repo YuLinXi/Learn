@@ -16,7 +16,7 @@
 - 比较提示词、模型、工具和流程修改前后的效果。
 - 统计成功率、延迟、Token 与成本，开展回归评测。
 
-主读：[Hello-Agents 第 12 章：智能体性能评估](https://github.com/datawhalechina/hello-agents/tree/main/docs/chapter12)。  
+主读：[Hello-Agents 第 12 章：智能体性能评估](https://hello-agents.datawhale.cc/#/./chapter12/%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E6%80%A7%E8%83%BD%E8%AF%84%E4%BC%B0)。  
 深入：[《深入理解 AI Agent》第 7 章：Agent 的评估](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter7.md)。  
 实现参考：[OpenAI Agent Evals](https://developers.openai.com/api/docs/guides/agent-evals)、[Mastra Evals](https://mastra.ai/docs/evals/overview)。
 

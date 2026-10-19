@@ -16,7 +16,7 @@
 - 传统 RAG 与 Agentic RAG：何时检索、如何多轮检索。
 - 检索质量与回答质量的分别评估。
 
-主读：[Hello-Agents 第 8 章](https://github.com/datawhalechina/hello-agents/tree/main/docs/chapter8)中的 RAG 部分。  
+主读：[Hello-Agents 第 8 章](https://hello-agents.datawhale.cc/#/./chapter8/%E7%AC%AC%E5%85%AB%E7%AB%A0%20%E8%AE%B0%E5%BF%86%E4%B8%8E%E6%A3%80%E7%B4%A2)中的 RAG 部分。  
 补充：[Microsoft 第 5 课：Agentic RAG](https://github.com/microsoft/ai-agents-for-beginners/tree/main/05-agentic-rag)。
 
 ## 建议阶段目标

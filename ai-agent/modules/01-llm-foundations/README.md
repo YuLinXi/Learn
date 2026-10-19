@@ -17,7 +17,7 @@
 
 主读：[Hello-Agents 第 3 章：大语言模型基础][ha]。补充：[OpenAI Conversation state][context] 与 [Structured Outputs][structured] 的指定小节。
 
-2026-10-16 已核对中文章节的小节位置和补充文档的相关内容。阅读以理解机制为目标；Python 示例读懂意图即可，PyTorch 实现和公式推导可先略读。实际 API 接入前再核对服务、参数支持与依赖版本。
+2026-10-19 已核对国内在线站对应的中文章节与小节位置。阅读以理解机制为目标；Python 示例读懂意图即可，PyTorch 实现和公式推导可先略读。实际 API 接入前再核对服务、参数支持与依赖版本。
 
 ## 阶段 A：词元与提示词
 
@@ -72,10 +72,10 @@
 
 验收通过须有你的解释、作答或练习证据；读过原文和教师解释不算通过。证据位置与下一步统一写入 [PROGRESS.md](../../PROGRESS.md)。
 
-[ha]: https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80.md
-[ha-token]: https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80.md#322-文本分词
-[ha-prompt]: https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80.md#321-提示工程
-[ha-model]: https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80.md#31-语言模型与-transformer-架构
-[ha-hallucination]: https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80.md#332-模型幻觉
+[ha]: https://hello-agents.datawhale.cc/#/./chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80
+[ha-token]: https://hello-agents.datawhale.cc/#/./chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80?id=_322-%e6%96%87%e6%9c%ac%e5%88%86%e8%af%8d
+[ha-prompt]: https://hello-agents.datawhale.cc/#/./chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80?id=_321-%e6%8f%90%e7%a4%ba%e5%b7%a5%e7%a8%8b
+[ha-model]: https://hello-agents.datawhale.cc/#/./chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80?id=_31-%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e4%b8%8e-transformer-%e6%9e%b6%e6%9e%84
+[ha-hallucination]: https://hello-agents.datawhale.cc/#/./chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80?id=_332-%e6%a8%a1%e5%9e%8b%e5%b9%bb%e8%a7%89
 [context]: https://developers.openai.com/api/docs/guides/conversation-state#managing-the-context-window
 [structured]: https://developers.openai.com/api/docs/guides/structured-outputs
