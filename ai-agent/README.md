@@ -26,7 +26,7 @@
 | [RESOURCES.md](RESOURCES.md) | 原始资料入口及其用途 |
 | [PROGRESS.md](PROGRESS.md) | 当前阅读阶段、汇报点、理解验证、卡点与复习队列 |
 | [modules/](modules/) | 各模块的小目标、阅读范围、汇报要求和验收标准 |
-| [learning-records/](learning-records/) | 有证据的理解、纠错与已知能力，供后续诊断和巩固使用 |
+| `learning-records/` | 产生首条学习记录后创建，保存有证据的理解、纠错与已知能力，供后续诊断和巩固使用 |
 
 ## 如何继续
 

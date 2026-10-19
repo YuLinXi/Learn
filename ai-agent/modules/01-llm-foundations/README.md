@@ -4,7 +4,7 @@
 
 ## 前置
 
-能读懂基础 JSON。用户已自述熟悉 TypeScript / Node.js、async/await 与 HTTP 调用，暂无 LLM API 调用经验；相关理解以诊断与练习继续验证。
+能读懂基础 JSON；TypeScript / Node.js 熟悉程度与 LLM API 调用经验在开始学习时确认。
 
 ## 内容与对应资料
 
@@ -21,7 +21,7 @@
 
 ## 阶段 A：词元与提示词
 
-建议 20–30 分钟，可分多次完成。这是当前要执行的阅读任务。
+建议 20–30 分钟，可分多次完成。建议从本阶段开始学习。
 
 - **小目标 A1**：用自己的话解释 Token、Tokenizer，以及 Token 与字、单词的关系。
 - **必读**：[3.2.2 文本分词][ha-token]。重点读分词动机、子词思路与 BPE 合并例子；Python 模拟实现可选读，不要求运行。
@@ -58,7 +58,7 @@
 - **必读**：[3.3.2 模型幻觉][ha-hallucination]；[Structured Outputs][structured] 中 Structured Outputs vs JSON mode、Handling mistakes。
 - **小目标 D2**：解释流式响应的用途，以及为什么要关注拒绝和未完成响应。
 - **必读**：Structured Outputs 中 Streaming、Refusals with Structured Outputs 及示例中的边界处理；当前只理解流程，代码按需阅读。
-- **回来汇报的条件**：读完指定内容，提交一份简单输入/输出契约和反例，并列出尚未理解的响应边界。教师结合已有库存题答案，用新场景进行迁移诊断。
+- **回来汇报的条件**：读完指定内容，提交一份简单输入/输出契约和反例，并列出尚未理解的响应边界。教师用新场景进行迁移诊断。
 
 ## 汇报与记录
 
