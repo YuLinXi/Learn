@@ -1,0 +1,21 @@
+{
+  "name": "learn-adaptive-review",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "review": "tsx cli.ts",
+    "test": "tsx --test review.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ts-fsrs": "5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

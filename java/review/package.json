@@ -1,0 +1,8 @@
+{
+  "name": "learn-java-review",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "review": "node ../../ai-agent/review/node_modules/tsx/dist/cli.mjs ../../ai-agent/review/cli.ts --root .."
+  }
+}

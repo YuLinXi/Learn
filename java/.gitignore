@@ -1,0 +1,6 @@
+**/target/
+**/node_modules/
+.DS_Store
+review/request-*.json
+outputs/environment/*-effective-pom.xml
+outputs/environment/*-dependency-tree.txt
